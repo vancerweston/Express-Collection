@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+
+  p This express app is connected to my Mongo Database. My database is a library of some of my favorite books.
+  p To view my JSON data from my database go to "localhost:3000/books/". 
+  p OR
+  p 
+    a(href='/books') Click Here!
